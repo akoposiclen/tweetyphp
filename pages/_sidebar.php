@@ -62,7 +62,7 @@
                     <?php if($_GET['id'] == $_SESSION['user_id']): ?>
 
 
-                        <form method="POST" action="submit_post">
+                        <form method="POST" action="../submit_post.php">
                             <label>
                             <textarea name="comment" ></textarea>
                             <input type="submit" class="button secondary expand" value="Post" />
@@ -86,7 +86,7 @@
                 <?php else: ?>
 
 
-                    <form method="POST" action="submit_post">
+                    <form method="POST" action="../submit_post.php">
                         <label>
                         <textarea name="comment" ></textarea>
                         <input type="submit" class="button secondary expand" value="Post" />
